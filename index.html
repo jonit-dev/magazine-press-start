@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/cf.css">
 
+    <!--FONTS AND ICONS-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
     <!--GRIDS-->
     <link rel="stylesheet" href="css/grids/mobile-grid.css">
     <link rel="stylesheet" href="css/grids/desktop-grid.css">
@@ -22,43 +28,111 @@
 </head>
 <body>
 
-<header>
 
-    <img src="gfx/logo.svg" alt="website logo" class="logo col-sm-12">
+<header class="col-sm-12 col-md-12">
 
-    <nav>
+    <div class="desktop-wrapper">
+        <img src="gfx/logo.svg" alt="website logo" class="logo">
+    </div>
+
+    <nav class="col-sm-12 col-md-12 cf">
+        <ul class="cf">
+            <div class="desktop-wrapper">
+
+                <!--MOBILE OPTIONS-->
+                <div class="mobile-only">
+                    <ul>
+
+                        <li><i class="fas fa-star fa-sm fa-fw icon"></i><a href="#">
+                            Reviews</a></li>
+                        <li><a href="#">
+                            <i class="fas fa-fire fa-sm fa-fw icon"></i>
+                            Trends</a></li>
+                        <li><a href="#">
+                            <i class="fas fa-gamepad fa-sm fa-fw icon"></i>
+                            Platform</a></li>
+                        <li><a href="#">
+                            <i class="fas fa-envelope fa-sm fa-fw icon"></i>
+                            Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <!--DESKTOP OPTIONS-->
+                <div class="desktop-only">
+
+                    <ul>
+                        <li>
+                              <a href="#"> <i class="fas fa-home fa-sm fa-fw"></i> Home</a>
+                        </li>
+
+                        <li>
+                        <a href="#">  <i class="fas fa-star fa-sm fa-fw"></i> Reviews</a>
+                        </li>
+                        <li>
+                        <a href="#">  <i class="fas fa-rocket fa-sm fa-fw"></i> Indie</a>
+                        </li>
+
+                        <li>
+                        <a href="#">  <i class="fas fa-fire fa-sm fa-fw"></i> Trending</a>
+                        </li>
+
+                        <li>
+                        <a href="#">  <i class="fas fa-mobile-alt fa-sm fa-fw"></i> Mobile</a>
+                        </li>
+
+                        <li>
+                        <a href="#">  <i class="fas fa-desktop fa-sm fa-fw"></i> PC </a>
+                        </li>
+                        <li>
+                        <a href="#">  <i class="fab fa-codepen fa-sm fa-fw"></i> VR</a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </ul>
     </nav>
 
 </header>
 
 
 <main>
+    <div class="desktop-wrapper">
 
-    <article>
+        <div class="main-article-box">
 
-        <section>
+        </div>
 
-        </section>
 
-        <section>
 
-        </section>
+        <article>
+            <section>
 
-    </article>
+            </section>
+        </article>
+
+
 
 
     <aside>
         <!--some complementary information here.. optional-->
     </aside>
-
+    </div>
 </main>
 
 
-<footer>
 
-</footer>
+<div class="desktop-wrapper">
+    <footer>
 
-
+    </footer>
+</div>
 
 </body>
 </html>
