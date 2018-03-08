@@ -9,6 +9,7 @@ img {
 
 body {
     font-family: 'Ubuntu', serif;
+    background-color:#dddddd;
 }
 
 /* ------------------------------------------------------------|
@@ -50,7 +51,7 @@ nav {
     width: 100vw;
 }
 
-ul {
+ .nav-menu {
     color: white;
     list-style-type: none;
     display: block;
@@ -61,7 +62,7 @@ ul {
     background-color: #355ff2;
 }
 
-ul li {
+ .nav-menu li {
     display: inline-block;
     float: left;
 
@@ -81,7 +82,7 @@ ul li {
 
 }
 
-ul li:hover {
+ .nav-menu li:hover {
     background-color: #254bb7;
 }
 
@@ -97,7 +98,7 @@ ul li:hover {
 
 }
 
-nav ul li a {
+nav .nav-menu li a {
     color: white;
     text-decoration: none;
 
@@ -117,7 +118,7 @@ nav ul li a {
 @media screen and (max-width: 850px) {
 
     /*Nav element size*/
-    ul li {
+     .nav-menu li {
         width: 25%;
 
     }
@@ -342,7 +343,7 @@ display: inline-block;
     }
 
     /*Nav element size*/
-    ul li {
+     .nav-menu li {
         width: 12.5%;
 
     }
@@ -367,7 +368,7 @@ display: inline-block;
     }
 
     /* NAV OPTIONS =========================================== */
-    nav ul {
+    nav  .nav-menu {
         height: 2rem;
     }
 
@@ -382,13 +383,13 @@ display: inline-block;
 
     }
 
-    nav ul li {
+    nav  .nav-menu li {
         margin: 0;
         padding: 0;
 
     }
 
-    nav ul li a {
+    nav  .nav-menu li a {
 
         font-size: .8rem;
 
@@ -396,7 +397,49 @@ display: inline-block;
         width: 100%;
         height: 100%;
         padding-top: 0.5rem;
+        padding-bottom: 0.6rem;
 
     }
 
+}
+
+/* ------------------------------------------------------------|
+| POP.nav-menuAR BOX
+*-------------------------------------------------------------*/
+
+.popular-box {
+    background-color:white;
+
+            box-sizing: border-box;
+    margin-top:.5rem;
+    font-size:.8rem;
+
+}
+
+.popular-tag {
+    color:#f13e41;
+    font-weight: bolder;
+}
+.popular-box ul {
+list-style-type: none;
+
+            box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding:0.6rem 0.3rem 0.6rem 0.3rem;
+    display: block;
+}
+
+.popular-box ul li {
+    width:12.5%;
+    display: inline-block;
+    float:left;
+
+            box-sizing: border-box;
+    text-align: center;
+}
+
+.popular-box ul li a {
+    text-decoration: none;
+    color:#121316;
 }
