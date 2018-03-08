@@ -9,7 +9,7 @@ img {
 
 body {
     font-family: 'Ubuntu', serif;
-    background-color:#dddddd;
+    background-color: #dddddd;
 }
 
 /* ------------------------------------------------------------|
@@ -28,7 +28,6 @@ main {
     display: inline-block;
     float: left;
     box-sizing: border-box;
-
 
 }
 
@@ -51,7 +50,7 @@ nav {
     width: 100vw;
 }
 
- .nav-menu {
+.nav-menu {
     color: white;
     list-style-type: none;
     display: block;
@@ -62,7 +61,7 @@ nav {
     background-color: #355ff2;
 }
 
- .nav-menu li {
+.nav-menu li {
     display: inline-block;
     float: left;
 
@@ -82,7 +81,7 @@ nav {
 
 }
 
- .nav-menu li:hover {
+.nav-menu li:hover {
     background-color: #254bb7;
 }
 
@@ -118,7 +117,7 @@ nav .nav-menu li a {
 @media screen and (max-width: 850px) {
 
     /*Nav element size*/
-     .nav-menu li {
+    .nav-menu li {
         width: 25%;
 
     }
@@ -143,9 +142,7 @@ nav .nav-menu li a {
     box-sizing: border-box;
 
     display: inline-block;
-    float:left;
-
-
+    float: left;
 
 }
 
@@ -154,19 +151,19 @@ nav .nav-menu li a {
     color: white;
 
     display: inline-block;
-    float:left;
+    float: left;
     height: 100%;
 
 }
 
 .featured-tag {
-    background-color:#f13e41;
+    background-color: #f13e41;
     width: 10.66%;
     min-width: 60px;
-    padding:.5rem 1rem .5rem 1rem;
+    padding: .5rem 1rem .5rem 1rem;
     text-align: center;
     font-weight: lighter;
-    font-size:.8rem;
+    font-size: .8rem;
     min-font-size: 3vw;
     max-font-size: 10vw;
 
@@ -175,11 +172,11 @@ nav .nav-menu li a {
 }
 
 .main-article-description {
-display: inline-block;
-    float:bottom;
+    display: inline-block;
+    float: bottom;
     width: 100%;
     height: 20%;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding-bottom: 1rem;
 
     border-right-style: solid;
@@ -189,16 +186,14 @@ display: inline-block;
 
 }
 
-
-
 .other-article-box {
- width: 100%;
+    width: 100%;
     height: 20%;
 
-    color:#e2e2e2;
+    color: #e2e2e2;
 
     display: inline-block;
-    float:left;
+    float: left;
     padding-bottom: 1rem;
     background-color: #121316;
 }
@@ -216,7 +211,7 @@ display: inline-block;
 }
 
 .other-article-box h1 {
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 .other-article-box p {
@@ -230,8 +225,8 @@ display: inline-block;
     padding-right: 2rem;
 }
 
-.other-article-box  {
- padding-bottom: 1rem;
+.other-article-box {
+    padding-bottom: 1rem;
 }
 
 .main-article p, .other-article-box p {
@@ -244,7 +239,7 @@ display: inline-block;
     width: 100%;
     max-width: 100%;
     display: inline-block;
-    float:left;
+    float: left;
     height: auto;
 }
 
@@ -254,14 +249,15 @@ display: inline-block;
     .other-article-box h1 {
         font-size: 1.2rem;
     }
+
     .other-article-box p {
         font-size: 0.8rem;
     }
 
-
-    .main-article-box ,.main-article{
+    .main-article-box, .main-article {
         height: 42rem;
     }
+
     .main-article-img {
         height: 80%;
     }
@@ -270,22 +266,20 @@ display: inline-block;
         height: 20%;
     }
 
-
     .main-article {
 
-                box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     .main-article-box {
         margin-top: 1rem;
 
-
     }
 
     .other-article-column {
-        background-color:#121316;
+        background-color: #121316;
         display: inline-block;
-        float:left;
+        float: left;
         height: 100%;
 
         box-sizing: border-box;
@@ -295,8 +289,8 @@ display: inline-block;
     .other-article-box {
         height: 20.5%;
 
-                box-sizing: border-box;
-        padding:0.9rem;
+        box-sizing: border-box;
+        padding: 0.9rem;
     }
 
     .active {
@@ -306,18 +300,15 @@ display: inline-block;
         background-color: #1d2027;
     }
 
-
-
-
 }
-
 
 /*MOBILE ONLY CODE*/
 @media screen and (max-width: 850px) {
 
-    .featured-tag{
+    .featured-tag {
         background-color: #f13e41;
     }
+
     .mobile-only {
         display: block;
     }
@@ -343,7 +334,7 @@ display: inline-block;
     }
 
     /*Nav element size*/
-     .nav-menu li {
+    .nav-menu li {
         width: 12.5%;
 
     }
@@ -368,7 +359,7 @@ display: inline-block;
     }
 
     /* NAV OPTIONS =========================================== */
-    nav  .nav-menu {
+    nav .nav-menu {
         height: 2rem;
     }
 
@@ -383,13 +374,13 @@ display: inline-block;
 
     }
 
-    nav  .nav-menu li {
+    nav .nav-menu li {
         margin: 0;
         padding: 0;
 
     }
 
-    nav  .nav-menu li a {
+    nav .nav-menu li a {
 
         font-size: .8rem;
 
@@ -408,38 +399,68 @@ display: inline-block;
 *-------------------------------------------------------------*/
 
 .popular-box {
-    background-color:white;
+    background-color: white;
 
-            box-sizing: border-box;
-    margin-top:.5rem;
-    font-size:.8rem;
+    box-sizing: border-box;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    height: 3rem;
 
 }
 
 .popular-tag {
-    color:#f13e41;
+    color: #f13e41;
     font-weight: bolder;
 }
-.popular-box ul {
-list-style-type: none;
 
-            box-sizing: border-box;
-    width: 100%;
+.popular-box ul {
+    list-style-type: none;
+
+    box-sizing: border-box;
+    min-width: 100%;
     margin: 0 auto;
-    padding:0.6rem 0.3rem 0.6rem 0.3rem;
+    padding:0;
     display: block;
+    height: 100%;
 }
 
 .popular-box ul li {
-    width:12.5%;
-    display: inline-block;
-    float:left;
 
-            box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
     text-align: center;
+    padding-left:.3rem;
+    padding-right:.3rem;
+    padding-top:1rem;
+
 }
 
 .popular-box ul li a {
     text-decoration: none;
-    color:#121316;
+    color: #121316;
+    height: 100%;
+
+}
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 850px) {
+    .popular-box {
+    font-size:.7rem;
+    }
+
+    .popular-box ul li {
+        width: 25%;
+    }
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 850px) {
+    .popular-box ul li {
+        width: 12.5%;
+    }
+
 }
