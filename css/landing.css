@@ -23,10 +23,12 @@ header {
 
 main {
     width: 100vw;
-    height: 40rem;
+    height: auto;
     display: inline-block;
     float: left;
     box-sizing: border-box;
+
+
 }
 
 .logo {
@@ -112,7 +114,7 @@ nav ul li a {
 }
 
 /*MOBILE ONLY CODE*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
 
     /*Nav element size*/
     ul li {
@@ -144,8 +146,6 @@ nav ul li a {
 
 
 
-    position:relative;
-
 }
 
 .main-article {
@@ -154,12 +154,13 @@ nav ul li a {
 
     display: inline-block;
     float:left;
+    height: 100%;
 
 }
 
 .featured-tag {
-    background-color:#355ff2;
-    width: 16.66%;
+    background-color:#f13e41;
+    width: 10.66%;
     min-width: 60px;
     padding:.5rem 1rem .5rem 1rem;
     text-align: center;
@@ -174,26 +175,33 @@ nav ul li a {
 
 .main-article-description {
 display: inline-block;
-    float:left;
+    float:bottom;
     width: 100%;
-
+    height: 20%;
             box-sizing: border-box;
     padding-bottom: 1rem;
 
     border-right-style: solid;
     border-right-color: #f13e41;
     border-right-width: .5rem;
+
 }
+
+
 
 .other-article-box {
  width: 100%;
-    height: auto;
+    height: 20%;
 
     color:#e2e2e2;
-    background-color:#121316;
+
     display: inline-block;
     float:left;
+    padding-bottom: 1rem;
+}
 
+.other-article-box:hover {
+    background-color: #1d2027;
 }
 
 .main-article h1 {
@@ -232,17 +240,80 @@ display: inline-block;
 .main-article-img {
     width: 100%;
     max-width: 100%;
-    height: auto;
     display: inline-block;
     float:left;
+    height: auto;
 }
 
 /*DESKTOP ONLY CODE*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 850px) {
+    .other-article-box h1 {
+        font-size: 1.2rem;
+    }
+    .other-article-box p {
+        font-size: 0.8rem;
+    }
+
+
+    .main-article-box ,.main-article{
+        height: 42rem;
+    }
+    .main-article-img {
+        height: 80%;
+    }
+
+    .main-article-description {
+        height: 20%;
+    }
+
+
+    .main-article {
+
+                box-sizing: border-box;
+    }
 
     .main-article-box {
         margin-top: 1rem;
+
+
+    }
+
+    .other-article-column {
+        background-color:#121316;
+        display: inline-block;
+        float:left;
+        height: 100%;
+
+        box-sizing: border-box;
+        padding-bottom: 1rem;
+    }
+
+    .other-article-box {
+        height: 20.5%;
+
+                box-sizing: border-box;
+        padding:0.9rem;
+    }
+
+
+
+
+}
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 850px) {
+
+    .featured-tag{
+        background-color: #f13e41;
+    }
+    .mobile-only {
+        display: block;
+    }
+
+    .desktop-only {
+        display: none;
     }
 }
 
@@ -251,7 +322,7 @@ display: inline-block;
 *-------------------------------------------------------------*/
 /*DESKTOP ONLY CODE*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 850px) {
 
     .mobile-only {
         display: none;
@@ -268,7 +339,7 @@ display: inline-block;
     }
 
     .desktop-wrapper {
-        max-width: 1200px;
+        max-width: 1400px;
 
         box-sizing: border-box;
         margin: 0 auto;
