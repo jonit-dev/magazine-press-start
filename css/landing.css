@@ -296,6 +296,13 @@ display: inline-block;
         padding:0.9rem;
     }
 
+    .active {
+        border-right-style: solid;
+        border-right-color: #f13e41;
+        border-right-width: .5rem;
+        background-color: #1d2027;
+    }
+
 
 
 
