@@ -184,6 +184,7 @@ display: inline-block;
     border-right-style: solid;
     border-right-color: #f13e41;
     border-right-width: .5rem;
+    background-color: #1d2027;
 
 }
 
@@ -198,6 +199,7 @@ display: inline-block;
     display: inline-block;
     float:left;
     padding-bottom: 1rem;
+    background-color: #121316;
 }
 
 .other-article-box:hover {
