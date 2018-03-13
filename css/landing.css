@@ -29,9 +29,8 @@ main {
     float: left;
     box-sizing: border-box;
 
-
-       margin:0 auto;
-        display: block;
+    margin: 0 auto;
+    display: block;
 
 }
 
@@ -494,15 +493,15 @@ nav .nav-menu li a {
 }
 
 .news-box-tag {
-    background-color:#355ff2;
-    color:white;
+    background-color: #355ff2;
+    color: white;
     font-weight: lighter;
-    font-size:.8rem;
+    font-size: .8rem;
     position: absolute;
     max-width: 68px;
-    padding:.5rem;
-    padding-left:1rem;
-    padding-right:1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .news-box-img {
@@ -527,7 +526,7 @@ nav .nav-menu li a {
     color: white;
 
     font-weight: bolder;
-    padding:1rem;
+    padding: 1rem;
 }
 
 /*MOBILE ONLY CODE*/
@@ -535,31 +534,46 @@ nav .nav-menu li a {
     .news-box {
         height: 27.5rem;
     }
+
     .news-box-description {
-        font-size:1.4rem;
-        padding-top:1.6rem;
+        font-size: 1.4rem;
+        padding-top: 1.6rem;
     }
 }
-
 
 /*MOBILE ONLY CODE*/
 @media screen and (max-width: 400px) {
 
     .news-box-description {
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
 }
-
 
 /*DESKTOP ONLY CODE*/
 
 @media screen and (min-width: 850px) {
 
- .news-box {
-     padding:.2rem;
-     height: 23rem;
- }
+    .news-box {
+        padding: .2rem;
+        height: 23rem;
+    }
+
     .news-box-description {
-        font-size:.9rem;
+        font-size: .9rem;
     }
 }
+
+/* ------------------------------------------------------------|
+| ADS BOX
+*-------------------------------------------------------------*/
+
+.ads-box {
+    display: inline-block;
+    float: left;
+      height: 10rem;
+}
+
+.ads-box img {
+        width: 100%;
+        height: auto;
+    }
