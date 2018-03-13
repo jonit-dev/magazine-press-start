@@ -23,11 +23,15 @@ header {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    display: inline-block;
     float: left;
     box-sizing: border-box;
+
+
+       margin:0 auto;
+        display: block;
 
 }
 
@@ -46,13 +50,13 @@ main {
 }
 
 /*MOBILE ONLY CODE*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
 
- .logo {
-     padding-left:1rem;
-     padding-right:1rem;
+    .logo {
+        padding-left: 1rem;
+        padding-right: 1rem;
 
- }
+    }
 }
 
 nav {
@@ -253,9 +257,6 @@ nav .nav-menu li a {
     height: auto;
 }
 
-
-
-
 /*DESKTOP ONLY CODE*/
 
 @media screen and (min-width: 850px) {
@@ -358,6 +359,7 @@ nav .nav-menu li a {
         box-sizing: border-box;
         margin: 0 auto;
         display: block;
+        height: auto;
         width: 100%;
         padding-left: 3rem;
         padding-right: 3rem;
@@ -368,7 +370,6 @@ nav .nav-menu li a {
     .logo {
         display: inline-block;
         width: auto;
-
 
     }
 
@@ -434,7 +435,7 @@ nav .nav-menu li a {
     box-sizing: border-box;
     min-width: 100%;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
     display: block;
     height: 100%;
 }
@@ -446,9 +447,9 @@ nav .nav-menu li a {
     height: 100%;
     box-sizing: border-box;
     text-align: center;
-    padding-left:.3rem;
-    padding-right:.3rem;
-    padding-top:1.1rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    padding-top: 1.1rem;
 
 }
 
@@ -462,7 +463,7 @@ nav .nav-menu li a {
 /*MOBILE ONLY CODE*/
 @media screen and (max-width: 850px) {
     .popular-box {
-    font-size:.7rem;
+        font-size: .7rem;
     }
 
     .popular-box ul li {
@@ -479,3 +480,86 @@ nav .nav-menu li a {
 
 }
 
+/* ------------------------------------------------------------|
+| NEWS BOX
+*-------------------------------------------------------------*/
+
+.news-box {
+    display: inline-block;
+    float: left;
+
+    box-sizing: border-box;
+
+    margin-bottom: .5rem;
+}
+
+.news-box-tag {
+    background-color:#355ff2;
+    color:white;
+    font-weight: lighter;
+    font-size:.8rem;
+    position: absolute;
+    max-width: 68px;
+    padding:.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.news-box-img {
+    width: 100%;
+
+    display: inline-block;
+    float: left;
+    height: 72%;
+}
+
+.news-box-description-wrapper {
+    background-color: #1d2027;
+    height: 28%;
+
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.news-box-description {
+    color: white;
+
+    font-weight: bolder;
+    padding:1rem;
+}
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 850px) {
+    .news-box {
+        height: 27.5rem;
+    }
+    .news-box-description {
+        font-size:1.4rem;
+        padding-top:1.6rem;
+    }
+}
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 400px) {
+
+    .news-box-description {
+        font-size:1.2rem;
+    }
+}
+
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 850px) {
+
+ .news-box {
+     padding:.2rem;
+     height: 23rem;
+ }
+    .news-box-description {
+        font-size:.9rem;
+    }
+}

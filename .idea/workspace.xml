@@ -27,27 +27,42 @@
     <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="224" column="8" lean-forward="false" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-104">
+                  <caret line="250" column="47" lean-forward="false" selection-start-line="250" selection-start-column="47" selection-end-line="250" selection-end-column="47" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/landing.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="539" column="23" lean-forward="false" selection-start-line="539" selection-start-column="23" selection-end-line="539" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>col</find>
-      <find>class=&quot;col-sm-3 col-md-3&quot;</find>
-      <find>hot</find>
       <find>main-article-box</find>
       <find>red</find>
       <find>hotpink</find>
@@ -72,9 +87,12 @@
       <find>.nav-menu</find>
       <find>nav ul li a</find>
       <find>i</find>
-      <find>desktop-wrapp</find>
       <find>logo</find>
       <find>main-article-img</find>
+      <find>tag</find>
+      <find>desktop-wrapp</find>
+      <find>main</find>
+      <find>max-width</find>
     </findStrings>
     <replaceStrings>
       <replace>col-sm-</replace>
@@ -102,8 +120,8 @@
         <option value="$PROJECT_DIR$/css/grids/mobile-grid.css" />
         <option value="$PROJECT_DIR$/js/logo.js" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
-        <option value="$PROJECT_DIR$/css/landing.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/landing.css" />
       </list>
     </option>
   </component>
@@ -155,12 +173,6 @@
               <item name="magazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="magazine" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="magazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magazine" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="magazine" type="b2602c69:ProjectViewProjectNode" />
@@ -230,12 +242,12 @@
       <workItem from="1520488456954" duration="2001000" />
       <workItem from="1520490973453" duration="1335000" />
       <workItem from="1520657159322" duration="29000" />
-      <workItem from="1520912473576" duration="254000" />
+      <workItem from="1520912473576" duration="4141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27939000" />
+    <option name="totallyTimeSpent" value="31826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -477,22 +489,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="258" column="17" lean-forward="false" selection-start-line="258" selection-start-column="17" selection-end-line="258" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="224" column="8" lean-forward="false" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
+        <state relative-caret-position="-104">
+          <caret line="250" column="47" lean-forward="false" selection-start-line="250" selection-start-column="47" selection-end-line="250" selection-end-column="47" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="539" column="23" lean-forward="false" selection-start-line="539" selection-start-column="23" selection-end-line="539" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
