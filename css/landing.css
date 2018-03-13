@@ -253,6 +253,9 @@ nav .nav-menu li a {
     height: auto;
 }
 
+
+
+
 /*DESKTOP ONLY CODE*/
 
 @media screen and (min-width: 850px) {
@@ -475,3 +478,4 @@ nav .nav-menu li a {
     }
 
 }
+
