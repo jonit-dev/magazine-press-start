@@ -254,7 +254,7 @@ nav .nav-menu li a {
     max-width: 100%;
     display: inline-block;
     float: left;
-    height: auto;
+    height: 20rem;
 }
 
 /*DESKTOP ONLY CODE*/
