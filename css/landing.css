@@ -559,7 +559,7 @@ nav .nav-menu li a {
     }
 
     .news-box-description {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 }
 
@@ -570,10 +570,142 @@ nav .nav-menu li a {
 .ads-box {
     display: inline-block;
     float: left;
-      height: 10rem;
+    height: auto;
+    margin-bottom: .5rem;
 }
 
 .ads-box img {
-        width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+/* ------------------------------------------------------------|
+| BOX MOST READ MOST SHARED
+*-------------------------------------------------------------*/
+
+.box-read-shared {
+
+    height: 22.6rem;
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 0.2rem;
+}
+
+.box-read-shared-title {
+    height: 14%;
+}
+
+.box-read-shared-options {
+    margin-bottom: .5rem;
+    height: 44%;
+}
+
+.box-read-shared-option {
+    box-sizing: border-box;
+    background-color: #355ff2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.active-title-option {
+    background-color: white !important;
+    color: #1d2027 !important;
+    border-left: .3rem solid #355ff2;
+    border-top: .3rem solid #355ff2;
+    height: 3rem;
+}
+
+.active-option {
+    background-color: #1d2027 !important;
+    color: white !important;
+    border-width: 1rem;
+    border-left: solid #f13e41;
+}
+
+.active-number {
+    font-size: 1.5rem;
+    color: #dddddd !important;
+    font-weight: bolder;
+    margin-right: 0.6rem;
+}
+
+.box-read-shared-featured-options {
+    box-sizing: border-box;
+    height: 44%;
+}
+
+.box-read-shared-featured-option {
+    background-color: white;
+    font-size: 1.2rem;
+    color: #1d2027;
+    height: auto;
+    padding-top: .3rem;
+    padding-bottom: .7rem;
+    padding-left: .5rem;
+
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.box-read-shared-featured-number {
+    font-size: 1.5rem;
+    color: #1d2027;
+    font-weight: bolder;
+    padding-top:.3rem;
+
+    margin-right: 0.6rem;
+}
+
+.box-read-shared-img img {
+    width: 100%;
+
+    height: 100%;
+}
+
+.box-read-shared-img {
+    height: 42%;
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .box-read-shared-featured-option {
+        font-size: .8rem;
+        font-weight: bolder;
+    }
+
+    .box-read-shared-featured-number {
+        font-size: 1.2rem;
+    }
+}
+
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 700px) {
+
+    .box-read-shared{
         height: auto;
     }
+}
+
+
+/* ------------------------------------------------------------|
+| FOOTER
+*-------------------------------------------------------------*/
+
+footer {
+    background-color:#1d2027;
+    height: 11rem;
+    margin-bottom: 1rem;
+    margin-top:.5rem;
+}
+
+.footer-menu-top {
+
+}
