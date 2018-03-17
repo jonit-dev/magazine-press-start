@@ -14,37 +14,49 @@ label {
     width: 20%;
     display: inline-block;
     float: left;
-    color:#e2e2e2;
-    margin-top:0.2rem;
-    padding:.5rem;
+    color: #e2e2e2;
+    margin-top: 0.2rem;
+    padding: .5rem;
 }
 
 .form-input-style {
     border-radius: .3rem;
     border-style: none;
     width: 100%;
-    margin-left:0.6rem;
-    padding-top:.5rem;
-    padding-bottom:.5rem;
-    padding-left:.5rem;
+    margin-left: 0.6rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
 }
 
 input {
     height: 1rem;
-    margin-top:.5rem;
+    margin-top: .5rem;
 
 }
 
 .form-input-style:focus {
     border: none;
-    outline:none;
+    outline: none;
 }
 
-
 form {
-    margin-top:2rem;
+    margin-top: 2rem;
 }
 
 textarea {
     height: 5rem;
+}
+
+.invalid-field {
+    display: none;
+    color: #f13e41;
+    font-weight: bolder;
+    font-size: .7rem;
+
+    float: left;
+    width: 100%;
+    margin-left: 0.6rem;
+    padding: .2rem;
+    box-sizing: border-box;
 }
