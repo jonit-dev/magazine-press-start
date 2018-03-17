@@ -1,0 +1,28 @@
+.error-container {
+    height: 58vh;
+    background-color: #1d2027;
+    margin-top:.5rem;
+    padding-bottom:2rem;
+}
+.error-icon {
+    width: 12rem;
+    height: auto;
+    padding:2rem;
+
+    margin:0 auto;
+    display: block;
+}
+
+.error-text {
+    text-align: center;
+    color:#e2e2e2;
+}
+
+.error-text h1 {
+    font-size:2rem;
+    font-weight: bolder;
+}
+
+.error-text p {
+    font-size:1.2rem;
+}
