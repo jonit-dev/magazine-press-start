@@ -1,0 +1,114 @@
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 0;
+    width: 100%;
+}
+
+.container h1 {
+    color: #2b2a2b;
+    text-align: left;
+    margin-top:0;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+}
+
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 850px) {
+
+    .container h1 {
+        width: 100%;
+    }
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 850px) {
+
+    .container {
+        box-sizing: border-box;
+        padding-left: 11rem;
+        padding-right: 11rem;
+    }
+}
+
+.container h1 + .description {
+    text-align: left;
+    color: #5B5860;
+    font-style: italic;
+
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    clear: left;
+    margin-top: -1rem;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+hr {
+    clear: left;
+
+    width: 100%;
+    opacity: .5;
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    overflow:hidden;
+}
+
+
+.image {
+
+    background: url("http://lorempixel.com/300/200/");
+    background-position:center;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.image:hover {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */
+}
+
+.article-video {
+    width: 100%;
+    height: 25rem;
+    margin-top: 1rem;
+
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .article-video {
+        height: 35rem;
+    }
+}
+
+article {
+    color: #1d2027;
+    padding-top: 1rem;
+    font-size: 1.05rem;
+
+}
+
+.author {
+    color: #f13e41;
+}
