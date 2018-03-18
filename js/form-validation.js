@@ -2,33 +2,37 @@ $(function () {
 
     $("#contact-form").submit(function (e) {
 
-
-        console.log("submitting form");
+        $("#user-name ~ .invalid-field").hide();
+        $("#user-email ~ .invalid-field").hide();
+        $("#user-message ~ .invalid-field").hide();
 
         //get variables
         let userName = $('#user-name');
         let userEmail = $('#user-email');
         let userMessage = $('#user-message');
 
-        console.log(userName, userEmail, userMessage);
-
         if (userName.val().length === 0 || typeof userName.val() === 'undefined') {
             $("#user-name ~ .invalid-field").show();
             e.preventDefault();
             return false;
-        }
-
-        if(!validateEmail(userEmail.val())) {
+        } else if (!validateEmail(userEmail.val())) {
             $("#user-email ~ .invalid-field").show();
             e.preventDefault();
             return false;
-        }
-
-        if(userMessage.val().length === 0 || typeof userMessage.val() === 'undefined') {
+        } else if (userMessage.val().length === 0) {
             $("#user-message ~ .invalid-field").show();
             e.preventDefault();
             return false;
         }
+
+        //if everything is ok, submit form.
+
+        // console.log("submitting form");
+
+
+        // e.preventDefault();
+        // return false;
+
     });
 
 
