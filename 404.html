@@ -29,6 +29,11 @@
 
     <script src="js/logo.js"></script>
 
+    <!--JQUERY-->
+    <script src="build/jquery/dist/jquery.min.js"></script>
+    <script src="build/jquery-image-explode/dist/jquery.imgexplode.min.js"></script>
+    <script src="js/img-explode.js"></script>
+
 </head>
 <body>
 
@@ -114,7 +119,7 @@
 <div class="desktop-wrapper">
 
    <div class="error-container col-sm-12 col-md-12">
-       <img src="gfx/monster.gif" class="error-icon" alt="Ghost 404 icon">
+       <img src="gfx/monster.gif" class="error-icon" alt="Ghost 404 icon"  id="explode-me">
 
        <div class="error-text col-sm-12 col-md-12">
            <h1>GAME OVER</h1>
@@ -122,7 +127,7 @@
            <p>uh-oh, you've hit a 404 page!</p>
 
 
-           <a class="btn btn-error btn-sm" href="index.html">Home</a>
+           <a class="btn btn-error btn-sm fixbtn " href="index.html">Home</a>
 
        </div>
 

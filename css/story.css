@@ -29,8 +29,8 @@
 
     .container {
         box-sizing: border-box;
-        padding-left: 11rem;
-        padding-right: 11rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
     }
 }
 
@@ -55,17 +55,30 @@ hr {
     opacity: .5;
 }
 
-.article-img {
-    width: 100%;
-    height: auto;
-    margin-top: 1rem;
+.image-box{
+    width:100%;
     overflow:hidden;
+            box-sizing: border-box;
+    display: inline-block;
+    float:left;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+
+.img-girl {
+    background: url("../gfx/pictures/gamer2.jpg");
+}
+
+.img-videogame {
+    background: url("../gfx/pictures/gamer.jpg");
 }
 
 
-.image {
+.article-img {
+    width: 100%;
+    height: 20rem;
 
-    background: url("http://lorempixel.com/300/200/");
+    background-size:cover;
     background-position:center;
     transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -73,7 +86,16 @@ hr {
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
 }
-.image:hover {
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .article-img {
+        height: 30rem;
+    }
+}
+.article-img:hover {
     transform: scale(1.5);
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
