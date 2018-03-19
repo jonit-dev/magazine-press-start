@@ -68,7 +68,7 @@ main {
     color: white;
     margin: 0 auto;
     display: block;
-    width: 100%;
+    max-width: 100%;
     border: none;
     margin-left: 1.8rem;
     padding: .3rem;
@@ -93,6 +93,7 @@ main {
 
 .search-box {
     background-color:#2f4cb5;
+
 }
 
 /*DESKTOP ONLY CODE*/
