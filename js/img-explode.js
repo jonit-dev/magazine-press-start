@@ -8,7 +8,7 @@ $(function () {
       let myInterval = setInterval(() => {
              if(m === 1) {
 
-                 let random = Math.random()*1.5;
+                 let random = Math.random();
 
                  $("#explode-me").css('top',`${random}rem`);
                  m = 0;
@@ -49,6 +49,10 @@ $(function () {
                  });
 
                  clearInterval(myInterval);
+
+            setTimeout(() => {
+                $("canvas").remove();
+            },1500)
 
              }
 
