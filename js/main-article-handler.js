@@ -6,6 +6,16 @@ $(function () {
 
     let sideArticles = $(".other-article-box");
 
+
+    sideArticles.hover(function(){
+
+        $("body").css('cursor','pointer');
+
+    },function(){
+
+        $("body").css('cursor','default');
+    });
+
     sideArticles.click(function (e) {
 
         //remove active class from the first element (Default selection(
