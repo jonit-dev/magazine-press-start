@@ -571,6 +571,13 @@ nav .nav-menu li a {
     height: 72%;
 }
 
+.news-box.img:hover{
+    filter:saturate(200%);
+}
+
+
+
+
 .news-box-description-wrapper {
     background-color: #1d2027;
     height: 28%;

@@ -25,7 +25,15 @@
     <!--PAGES CSS-->
     <link rel="stylesheet" href="css/landing.css">
 
+
+    <!--SCRIPTS-->
+
     <script src="js/logo.js"></script>
+
+    <!--JQUERY-->
+    <script src="build/jquery/dist/jquery.min.js"></script>
+
+    <script src="js/main-article-handler.js"></script>
 
 </head>
 <body>
@@ -140,13 +148,14 @@
                 <div class="featured-tag">FEATURED</div>
 
                 <a href="story.html">
-                    <img src="gfx/pictures/gamer.jpg" alt="" class="main-article-img">
+                    <img src="gfx/pictures/gamer.jpg" alt="" id="featured-article-img" class="main-article-img">
                 </a>
 
 
                 <div class="main-article-description">
-                    <h1><a href="story.html">Smarter Kids</a></h1>
-                    <p><a href="story.html">Kids who play video games are smarter, according to study from York
+                    <h1><a href="story.html" id="featured-article-title">Smarter Kids</a></h1>
+                    <p><a href="story.html" id="featured-article-subtitle">Kids who play video games are smarter,
+                        according to study from York
                         University, conducted at Digital Creativity Labs (DC Labs)</a></p>
                 </div>
 
@@ -156,40 +165,41 @@
             <div class="col-md-4 other-article-column">
 
 
-                <div class="other-article-box active">
+                <div class="other-article-box active" id="gaming_img0">
 
-                    <h1><a href="story.html">Smarter Kids</a></h1>
-                    <p><a href="story.html">Kids who play video games are smarter, according to study from York
-                        University... </a></p>
-
-                </div>
-
-                <div class="other-article-box">
-
-                    <h1>Eden's Gate</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus. </p>
+                    <h1>Smarter Kids</h1>
+                    <p>Kids who play video games are smarter, according to study from York
+                        University... </p>
 
                 </div>
 
+                <div class="other-article-box" id="gaming_img1">
 
-                <div class="other-article-box">
+                    <h1>MMORPG</h1>
+                    <p>Social community and control is what makes and MMORPG addictive, according to study.</p>
 
-                    <h1>Eden's Gate</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus.</p>
-
-                </div>
-
-                <div class="other-article-box">
-
-                    <h1>Eden's Gate</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus. </p>
 
                 </div>
 
-                <div class="other-article-box">
 
-                    <h1>Eden's Gate</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus. </p>
+                <div class="other-article-box" id="gaming_img2">
+
+                    <h1>Soccer</h1>
+                    <p>New FIF 2018 to be released early this year. Check out the new features!</p>
+
+                </div>
+
+                <div class="other-article-box" id="gaming_img3">
+
+                    <h1>New Console</h1>
+                    <p> What does the Mintendo MII has to offer to early adopters?</p>
+
+                </div>
+
+                <div class="other-article-box" id="gaming_img4">
+
+                    <h1>Arcade</h1>
+                    <p>Does people still play pinball games? Yeah!</p>
 
                 </div>
             </div>
@@ -241,10 +251,13 @@
 
         <div class="news-box col-sm-12 col-md-3">
             <div class="news-box-tag">MMORPG</div>
-            <img src="gfx/pictures/articles/gaming_img1.jpg" alt="news box img" class="news-box-img">
+
+                <img src="gfx/pictures/articles/gaming_img1.jpg" alt="news box img" class="news-box-img">
+
+
             <div class="news-box-description-wrapper">
                 <div class="news-box-description">
-                    Social community and control is what makes and MMORPG addictive, according to study
+                    Social community and control is what makes and MMORPG addictive.
                 </div>
             </div>
 
