@@ -14,7 +14,9 @@ $(function () {
 
         i++;
 
-
+        if(i === sideArticles.length) {
+            i = 0;
+        }
 
 
     },3000);
