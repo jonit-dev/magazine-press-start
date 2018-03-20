@@ -8,7 +8,7 @@ $(function () {
 
 
     let i = 1;
-    setInterval(() => {
+    let articlesInterval = setInterval(() => {
 
         sideArticles[i].click();
 
@@ -32,6 +32,9 @@ $(function () {
     });
 
     sideArticles.click(function (e) {
+
+        //stop looping interval
+        clearInterval(articlesInterval);
 
         //remove active class from the first element (Default selection(
         sideArticles.removeClass('active');
