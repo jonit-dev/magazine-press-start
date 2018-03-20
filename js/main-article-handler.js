@@ -7,6 +7,19 @@ $(function () {
     let sideArticles = $(".other-article-box");
 
 
+    let i = 1;
+    setInterval(() => {
+
+        sideArticles[i].click();
+
+        i++;
+
+
+
+
+    },3000);
+
+
     sideArticles.hover(function(){
 
         $("body").css('cursor','pointer');
