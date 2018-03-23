@@ -7,8 +7,6 @@ $(function () {
 
     let sideArticles = $(".other-article-box");
 
-    let otherArticlesBox = $(".other-article-box");
-
 
 
     let i = 1;
