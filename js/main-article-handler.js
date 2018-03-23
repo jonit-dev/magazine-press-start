@@ -3,15 +3,18 @@ $(function () {
     let articleImg = $("#featured-article-img");
     let articleTitle = $("#featured-article-title");
     let articleSubtitle = $("#featured-article-subtitle");
+    let articleHrefs = $(".featured-article-href");
 
     let sideArticles = $(".other-article-box");
+
+    let otherArticlesBox = $(".other-article-box");
+
 
 
     let i = 1;
     let articlesInterval = setInterval(() => {
 
-        sideArticles[i].click();
-
+        updateArticle(sideArticles.eq(i));
         i++;
 
         if(i === sideArticles.length) {
@@ -19,50 +22,54 @@ $(function () {
         }
 
 
-    },3000);
+    }, 3000);
 
 
-    sideArticles.hover(function(){
+    sideArticles.hover(function () {
 
-        $("body").css('cursor','pointer');
+        $("body").css('cursor', 'pointer');
 
-    },function(){
+    }, function () {
 
-        $("body").css('cursor','default');
+        $("body").css('cursor', 'default');
     });
 
-    sideArticles.click(function (e) {
-
-        //stop looping interval
-        clearInterval(articlesInterval);
+    function updateArticle(element) {
 
         //remove active class from the first element (Default selection(
         sideArticles.removeClass('active');
 
         //add the class to this article
-        $(this).addClass('active');
+        element.addClass('active');
 
-        let imgUrl = $(this)[0].id;
+        let imgUrl =element[0].id;
 
 
         //change main article img
-        articleImg.attr('src',`gfx/pictures/articles/${imgUrl}.jpg`);
+        articleImg.attr('src', `gfx/pictures/articles/${imgUrl}.jpg`);
 
         //change article title
         //sidebar h1
-        let h1 = $(this).children()[0];
-        let p = $(this).children()[1];
+        let h1 =element.children()[0];
+        let p =element.children()[1];
         articleTitle.html(h1.innerHTML);
         articleSubtitle.html(p.innerHTML);
 
-
-
-
-
+        //change article href
+        if(imgUrl == 'gaming_img0'){ //main story link
+            articleHrefs.attr('href','story.html');
+        } else {
+            articleHrefs.attr('href','#');
+        }
 
 
         // console.log($(this)[0].innerText);
 
+    }
+
+    sideArticles.click(function (e) {
+        clearInterval(articlesInterval);
+        updateArticle($(this));
     });
 
 
