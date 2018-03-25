@@ -26,14 +26,18 @@
     <link rel="stylesheet" href="css/landing.css">
 
 
-    <!--SCRIPTS-->
 
-    <script src="js/logo.js"></script>
 
     <!--JQUERY-->
     <script src="build/jquery/dist/jquery.min.js"></script>
 
     <script src="js/main-article-handler.js"></script>
+
+
+    <!--SCRIPTS-->
+
+    <script src="js/logo.js"></script>
+    <script src="js/search.js"></script>
 
 </head>
 <body>
@@ -70,9 +74,9 @@
                     <li><a href="#">
                         <i class="fas fa-fire fa-sm fa-fw icon"></i>
                         Trends</a></li>
-                    <li><a href="#">
-                        <i class="fas fa-gamepad fa-sm fa-fw icon"></i>
-                        Platform</a></li>
+                    <li><a href="#" id="search-button">
+                        <i class="fas fa-search fa-sm fa-fw icon"></i>
+                        Search</a></li>
                     <li><a href="contact.html">
                         <i class="fas fa-envelope fa-sm fa-fw icon"></i>
                         Contact</a></li>
@@ -123,7 +127,7 @@
         </div>
     </nav>
 
-    <div class="search-box col-sm-12 mobile-only">
+    <div class="search-box col-sm-12 mobile-only" style="display:none;">
         <form action="" method="post">
 
             <i class="fa fa-search search-icon"></i>
@@ -301,10 +305,10 @@
 
 
         <!--ADS-->
-        <div class="ads-box col-sm-12 col-md-12">
-            <img src="http://placehold.it/1306x150" alt="Ads space" class="desktop-only"> <!--DESKTOP VERSION-->
-            <img src="http://placehold.it/340x182" alt="Ads space" class="mobile-only"> <!--DESKTOP VERSION-->
-        </div>
+        <!--<div class="ads-box col-sm-12 col-md-12">-->
+            <!--<img src="http://placehold.it/1306x150" alt="Ads space" class="desktop-only"> &lt;!&ndash;DESKTOP VERSION&ndash;&gt;-->
+            <!--<img src="http://placehold.it/340x182" alt="Ads space" class="mobile-only"> &lt;!&ndash;DESKTOP VERSION&ndash;&gt;-->
+        <!--</div>-->
         <!--END ADS-->
 
         <!--MOST READ MOST SHARED-->
@@ -322,7 +326,7 @@
             </div>
 
             <div class="box-read-shared-img col-sm-12 col-md-12">
-                <img src="http://placehold.it/600x185" alt="Most read and shared img">
+                <img src="gfx/pictures/gamer3.jpg" alt="Most read and shared img">
             </div>
 
 
@@ -373,7 +377,7 @@
                 <img src="gfx/pictures/articles/gaming_img6.jpg" alt="news box img" class="news-box-img">
                 <div class="news-box-description-wrapper">
                     <div class="news-box-description">
-                        Is VR the new cutting edge of game development? We visited a Vancouver to find out!
+                        Is VR the new cutting edge of game development?
                     </div>
                 </div>
 

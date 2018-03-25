@@ -74,7 +74,6 @@ main {
     padding: .3rem;
     height: 2rem;
     font-size: .8rem;
-    border-bottom: #343334 solid .5px;
 
 }
 
@@ -100,9 +99,14 @@ main {
 
 @media screen and (min-width: 850px) {
 
+    .search {
+        border-bottom: #e2e2e2 solid .5px;
+    }
+
     .search-box, .search {
 
         background-color:#1d2027;
+
     }
 }
 
