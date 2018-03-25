@@ -55,6 +55,11 @@ main {
     margin-bottom: 1.5rem;
 }
 
+/* ------------------------------------------------------------|
+| SEARCHBOX
+*-------------------------------------------------------------*/
+
+
 .desktop-search-box {
     position: absolute;
     top:4.2vh;
@@ -198,12 +203,36 @@ nav .nav-menu li a {
 
     }
 
+    .nav-menu ul{
+        color: white;
+        list-style-type: none;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        height: 4rem;
+        background-color: #355ff2;
+    }
+
     .mobile-only {
         display: block;
     }
 
     .desktop-only {
         display: none;
+    }
+
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 700px) {
+
+    .nav-menu ul{
+
+        padding: 0;
+        margin: 0 auto;
+
     }
 
 }
@@ -240,9 +269,8 @@ nav .nav-menu li a {
     text-align: center;
     font-weight: lighter;
     font-size: .8rem;
-    min-font-size: 3vw;
-    max-font-size: 10vw;
-
+    /*min-font-size: 3vw;*/
+    /*max-font-size: 10vw;*/
     position: absolute;
 
 }
