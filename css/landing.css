@@ -25,6 +25,7 @@ header {
     background-color: #1d2027;
     height: auto;
     width: 100vw;
+
 }
 
 main {
@@ -62,8 +63,8 @@ main {
 
 .desktop-search-box {
     position: absolute;
-    top:4.2vh;
-    left:71vw;
+    top:2.8rem;
+    right:3rem;
 }
 
 .search {
@@ -444,6 +445,7 @@ nav .nav-menu li a {
     }
 
     .desktop-wrapper {
+        position:relative;
         max-width: 1400px;
 
         box-sizing: border-box;
