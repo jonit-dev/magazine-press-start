@@ -14,18 +14,18 @@ body {
 }
 
 .error-icon {
- position: relative;
-    top:3%;
-    left:10%;
+    position: relative;
+    top: 3%;
+    left: 10%;
 }
 
 .monster-wrapper {
     width: 10rem;
     height: 16rem;
-    margin:0 auto;
-    padding-top:2rem;
+    margin: 0 auto;
+    padding-top: 2rem;
     display: block;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .error-text {
@@ -44,5 +44,40 @@ body {
 
 .fixbtn {
     position: relative;
+
+}
+
+/* ------------------------------------------------------------|
+| SEARCH BOX
+*-------------------------------------------------------------*/
+
+.search-box {
+    position:relative;
+}
+
+.search-box input {
+    border: solid 1px silver;
+    border-radius: 0.7rem;
+    height: 2.2rem;
+    background-color: #1d2027;
+    font-size: .8rem;
+    color: white;
+    padding-left: 2rem;
+}
+
+.search-box input:active, .search-box input:focus {
+    outline:none;
+
+}
+
+.search-icon {
+    position: absolute;
+    top:-0.4rem;
+    left:0;
+    padding-top: .6rem;
+    padding-left: .8rem;
+    color: white;
+    opacity: .3;
+    font-size: .8rem;
 
 }
