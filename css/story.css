@@ -25,12 +25,12 @@
 
 /*DESKTOP ONLY CODE*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
     .container {
         box-sizing: border-box;
-        padding-left: 9rem;
-        padding-right: 9rem;
+        padding-left: 13rem;
+        padding-right: 13rem;
     }
 }
 
