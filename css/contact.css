@@ -14,6 +14,19 @@
 }
 
 .contact-form {
-
+    margin:0 auto;
+    display: block;
+    width: 100%;
           box-sizing: border-box;
+    padding-right:2rem;
+}
+
+/*DESKTOP ONLY CODE*/
+
+@media screen and (min-width: 900px) {
+
+    .contact-form {
+        padding-left:15rem;
+        padding-right:15rem;
+    }
 }
