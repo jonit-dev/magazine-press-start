@@ -6,6 +6,8 @@
     border-radius: .5rem;
     box-sizing: border-box;
     border-color: #155724;
+    margin-bottom:2rem;
+    margin-left:.6rem;
 }
 
 .alert-success {
